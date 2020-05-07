@@ -1,0 +1,342 @@
+.one, .two, .three{
+    width: 300px;
+}
+.main{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}.one{
+    flex:2;
+}.two{
+    flex:3;
+    text-align: center;
+    color: white;
+    
+}
+.three{
+    flex: 2;
+    line-height: 40px;   
+}
+.listOne{
+ list-style:none;
+}.listItem{
+    display: inline;
+    background-color: royalblue;
+    padding: 6px;
+}
+/*  siteLogo and navigation bar  */ 
+.nav{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.navOne, .navThree{
+    width: 300px;
+    
+}.navOne{
+    flex: 1;
+}
+.navThree{
+    flex: 2;
+    text-align: center;
+}
+
+
+.imageLogo{
+    margin-top: 10px;
+    width: 200px;
+    }
+
+        
+
+.image{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mainImage{
+        width: 1000px;
+}
+.marq{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.marqData{
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.intro, .paragh{
+    width: 400px;
+}.intro{
+    color: green;
+    text-align: center;
+    font-weight: 600px;
+    
+}.duction{
+    color: royalblue;
+   
+
+}.mainHeading{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}.introParag{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: grey;
+    
+}
+
+
+.introClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}.paragh{
+    text-align: justify;
+    width: 1000px;
+}.services{
+    margin-top: 10px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.servicesOne,.servicesTwo, .servicesThree, .servicesFour{
+border: 2px solid royalblue;
+width: 300px;
+text-align: center;
+color: white;
+}.mission{
+   margin-top: 10px;
+   display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:  space-between;
+
+}.missionHeading{
+    margin-left: 60px;
+    color: royalblue;
+}
+
+.missionTable td{
+    text-align: center;
+    width: 300px;
+    height: 50px;    
+    background-color: lightgrey ;
+    color: blue;    
+
+}.missionOne{
+    background-image: url("images/Hepatitis.png");
+    background-repeat: no-repeat;
+    background-position: 15px;
+
+   
+}.missionTwo{
+    background-image: url("images/housing.png");
+    background-repeat: no-repeat;
+    background-position: 15px;
+
+
+}.missionThree{
+    background-image: url("images/IT.png");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}.missionFour{
+    background-image: url("images/tharparkar.png");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+.mission{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.missionTable{
+
+    margin-left: 30px;
+    border-collapse: separate;
+    border-spacing: 30px 15px;
+
+}.missionTable th  td{
+    width: 150px;
+    text-align: center;
+    border: 1px solid royalblue;
+    padding: 5px;
+}
+
+.imageHeading{
+    text-align: center;
+    text-decoration: none ;
+
+}.Gellary{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.footer{
+    margin-top: 10px;
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}.footerAddress,.footerLinks,.footerConnect{
+    width: 400px;
+}
+
+.address{
+    color:lightgray;
+    margin-left: 50px;
+}.links ,.connect{
+    color: white;
+    text-align: start;
+    margin-left: 40px;
+}.connectLinks li{
+    display: inline-block;
+    padding: 4px;
+    margin-top: -18px;
+}
+
+button{
+    background-color: white;
+    color:gray;
+    border: 2px solid green;
+    height: 35px; 
+
+}.we{
+    margin-top: 20px;
+    text-align: center;
+}.sadqah,.welfare, .medical ,.dastarkhwan, .plant, .education{
+    text-align: center;
+    width: 300px;
+    color: royalblue;
+    background-color: white;
+
+}.do{
+    background-color: lightgrey ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}.are{
+    background-color: lightgrey ;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}.aims{
+    background-color: lightgrey ;
+
+}.dstData,.familyData,.medicalData, .educationData{
+    font-size: 250%;
+    font-family:unset;
+    line-height: .4;
+}.events{
+ 
+    color: royalblue;
+    position: relative;
+    right: 100px;
+    bottom: 70px;
+    width: 400px;
+    height: 200px;
+   
+}.eventMarq{
+    
+    height: 130px;
+    line-height: 1.4;
+    color: grey;
+}
+
+/*    dropDown Menu   */ 
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+nav ul {
+    float: left;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+
+}
+nav ul li a{
+    padding: 18px 14px;
+    display: block;
+    text-decoration: none;
+
+}nav ul li ul{
+    display: none ;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+
+   
+ 
+
+}nav ul li:hover ul{
+    display: block;
+  
+}
+
+
+nav ul li ul li {
+    padding: 18px 5px;    border-radius: 0px 80px 0px 80px;
+
+
+}
+nav ul li ul li:hover {
+    background-color: royalblue;
+    color: white;
+    
+}nav ul li ul li{
+    width: 200px;
+    border-radius:4px;
+}nav ul li a{
+    text-decoration: none;
+    color:black;
+}nav{
+    line-height: 5px;
+    margin-left: 5px;
+    
+}nav li a:hover{
+    background-color: royalblue;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.navEducation{
+    text-align: start;
+}nav .home{
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;}
